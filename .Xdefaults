@@ -1,0 +1,40 @@
+########################################
+## URxvt Config                        #
+########################################
+
+## Font
+URxvt.font: xft:Anonymice Powerline:size=12:antialias=true:autohint=true
+URxvt.letterSpace: 0
+
+## Colors
+! Special
+URxvt.foreground:  #FFFFFF
+URxvt.background:  #171717
+URxvt.cursorColor: #FFFFFF
+! black
+URxvt.color0:      #1E272E
+URxvt.color8:      #485460
+! red
+URxvt.color1:      #FF3F34
+URxvt.color9:      #FF5E57
+! green
+URxvt.color2:      #05C46B
+URxvt.color10:     #0BE881
+! yellow
+URxvt.color3:      #FFD32A
+URxvt.color11:     #FFDD59
+! blue
+URxvt.color4:      #3C40C6
+URxvt.color12:     #575FCF
+! magenta
+URxvt.color5:      #F53B57
+URxvt.color13:     #EF5777
+! cyan
+URxvt.color6:      #0FBCF9
+URxvt.color14:     #4BCFFA
+! white
+URxvt.color7:      #808E9B
+URxvt.color15:     #D2DAE2
+
+## ScrollBar
+URxvt.scrollBar: false

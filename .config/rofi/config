@@ -1,0 +1,13 @@
+## Base
+rofi.combi-modi: window,drun,ssh
+rofi.font: Anonymice Powerline 14
+rofi.modi: combi
+
+## Colors
+rofi.color-enabled: true
+!                  Background  Border    Separator 
+rofi.color-window: #171717,    #171717,  #FFFFFF                                    
+!                  Background  Foreground  Background Alternate  Highlight Background  Highlight Foreground
+rofi.color-normal: #171717,    #D2DAE2,    #171717,              #485460,              #FFFFFF 
+rofi.color-active: #171717,    #575FCF,    #171717,              #485460,              #FFFFFF 
+rofi.color-urgent: #FF5E56,    #000000,    #171717,              #485460,              #FFFFFF

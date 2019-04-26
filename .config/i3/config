@@ -177,19 +177,20 @@ for_window [class="^.*"] border pixel 1
 
 # bar
 bar {
-        status_command i3blocks
-	position top
-	colors {
-		background #171717
-		statusline #FFFFFF
-		separator  #FFFFFF
-		# class            border  backgr. text
-	        focused_workspace  #485460 #485460 #FFFFFF
-	        active_workspace   #171717 #171717 #FFFFFF
-	        inactive_workspace #171717 #171717 #485460
-        	urgent_workspace   #FF5E57 #FF5E57 #171717
-	        binding_mode       #FF5E57 #FF5E57 #171717
-	}
+    status_command i3blocks
+    position top
+    separator_symbol "  "
+    colors {
+        background #171717
+        statusline #FFFFFF
+        separator  #FFFFFF
+        # class            border  backgr. text
+        focused_workspace  #485460 #485460 #FFFFFF
+        active_workspace   #171717 #171717 #FFFFFF
+        inactive_workspace #171717 #171717 #485460
+        urgent_workspace   #FF5E57 #FF5E57 #171717
+        binding_mode       #FF5E57 #FF5E57 #171717
+    }
 }
 
 # gaps

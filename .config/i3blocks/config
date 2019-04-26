@@ -1,0 +1,7 @@
+[battery]
+command=~/.config/i3blocks/blocklets/battery.py
+interval=10
+
+[clock]
+command=~/.config/i3blocks/blocklets/clock.py
+interval=10

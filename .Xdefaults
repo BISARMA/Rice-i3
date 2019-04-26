@@ -2,6 +2,8 @@
 ## URxvt Config                        #
 ########################################
 
+URxvt*termName: rxvt-unicode
+
 ## Font
 URxvt.font: xft:Anonymice Powerline:size=12:antialias=true:autohint=true
 URxvt.letterSpace: 0
